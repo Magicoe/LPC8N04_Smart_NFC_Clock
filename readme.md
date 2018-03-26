@@ -8,7 +8,7 @@ NXP 2018
 Followed NXP claim, it should be free use  
 
 ### Author
-Owner   :NXP MICR LPC
+Owner   :NXP MICR LPC  
 Hardware:Longqiu co.,Ltd, Beijing  
 3D Print:Dexter Glang  
 Software:Magicoe Niu  
