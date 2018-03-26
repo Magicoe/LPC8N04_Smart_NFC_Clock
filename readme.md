@@ -8,9 +8,8 @@ Free use
 ### Author
 magicoe.niu@nxp.com
 
-### Hardware tool
+### Tools
 Aluminum Design
-### Software tool
 MCUXpresso IDE v10.1.1_606
 
 ## Introduction
@@ -19,6 +18,9 @@ Support Android APK, phone compatible with
 Nexus6
 Huawei Mate10
 etc
+
+Board Picture
+![LPC8N04 Board]()
 
 Include 3D print case 
 path: \3d print\
