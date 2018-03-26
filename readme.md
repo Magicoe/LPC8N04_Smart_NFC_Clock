@@ -8,7 +8,9 @@ NXP 2018
 Followed NXP claim, it should be free use  
 
 ### Author
-magicoe.niu@nxp.com  
+Hardware:Longqiu co.,Ltd, Beijing  
+3D Print:Dexter Glang  
+Software:Magicoe Niu  
 
 ### Tools
 Aluminum Design  
@@ -27,11 +29,11 @@ Huawei Mate10
 etc  
   
 Board Picture  
-![LPC8N04 Board]()  
+![LPC8N04 Board](https://github.com/Magicoe/LPC8N04_eClock/blob/master/docs/pictures/lpc8n04_eclock.png)   
   
 3D print case  
-Special thanks to *Dexter Glang*, he designed this 3D print shield
-path: \3d print\  
+Special thanks to *Dexter Glang*, he designed this 3D print shield  
+file path: \3d print\  
 3D print top  
 ![3D print top](https://github.com/Magicoe/LPC8N04_eClock/blob/master/3d%20print/Thermometer%20Concept%20v1%20(front).png)  
   
