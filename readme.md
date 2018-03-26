@@ -3,8 +3,10 @@
 ## Detail Description
 ### Copy right by
 NXP 2018  
+  
 ### License
-Free use  
+Followed NXP claim, it should be free use  
+
 ### Author
 magicoe.niu@nxp.com  
 
@@ -24,12 +26,11 @@ Nexus6
 Huawei Mate10  
 etc  
   
-<font color="#4590a3" size = "6px">Hello world</font>  
-  
 Board Picture  
 ![LPC8N04 Board]()  
   
 3D print case  
+Special thanks to *Dexter Glang*, he designed this 3D print shield
 path: \3d print\  
 3D print top  
 ![3D print top](https://github.com/Magicoe/LPC8N04_eClock/blob/master/3d%20print/Thermometer%20Concept%20v1%20(front).png)  
