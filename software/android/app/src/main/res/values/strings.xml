@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+****************************************************************************
+* Copyright(c) 2017 NXP Semiconductors                                     *
+* All rights are reserved.                                                 *
+*                                                                          *
+* Software that is described herein is for illustrative purposes only.     *
+* This software is supplied "AS IS" without any warranties of any kind,    *
+* and NXP Semiconductors disclaims any and all warranties, express or      *
+* implied, including all implied warranties of merchantability,            *
+* fitness for a particular purpose and non-infringement of intellectual    *
+* property rights.  NXP Semiconductors assumes no responsibility           *
+* or liability for the use of the software, conveys no license or          *
+* rights under any patent, copyright, mask work right, or any other        *
+* intellectual property rights in or to any products. NXP Semiconductors   *
+* reserves the right to make changes in the software without notification. *
+* NXP Semiconductors also makes no representation or warranty that such    *
+* application will be suitable for the specified use without further       *
+* testing or modification.                                                 *
+*                                                                          *
+* Permission to use, copy, modify, and distribute this software and its    *
+* documentation is hereby granted, under NXP Semiconductors' relevant      *
+* copyrights in the software, without fee, provided that it is used in     *
+* conjunction with NXP Semiconductor products(LPC8N04)                     *
+* This  copyright, permission, and disclaimer notice must appear in all    *
+* copies of this code.                                                     *
+****************************************************************************
+-->
+<resources>
+
+
+    <string name="app_name">LPC8N04 NFC Clock</string>
+    <string name="app_version">LPC8N04 NFC Clock v0.1.0</string>
+    <string name="app_version_number">0.1.0</string>
+    <string name="app_version_date">Feb 2018</string>
+    <string name="action_about">About</string>
+    <string name="action_help">Learn more</string>
+    <string name="action_debug">Debug</string>
+    
+    <string name="demo_not_supported_title"> Demo not supported </string>
+    <string name="demo_not_supported"> This demo is not supported for this NFC Device with this Tag </string>
+    <string name="tag_not_supported_title"> Invalid Tag </string>
+    <string name="tag_not_supported"> This demo is only supported by LPC8N04</string>
+
+	<string name="flash_memory_app">Select from Appl.</string>
+	<string name="flash_memory_storage">Select from Storage</string>
+	<string name="flash_app_select">Select Firmware to Flash</string>
+	<string name="flash_file">Current File: </string>
+	<string name="file_default_demo">Demo App (Embedded in apk) </string>
+	<string name="file_default_blinker">LED Blinker (Embedded in apk) </string>
+	<string name="flash_hint">Keep right button pressed </string>
+    <string name="leds">DEMO</string>
+    <string name="ndefs">NDEF</string>
+    <string name="settings">CONFIG</string>
+    <string name="choose">Choose color</string>
+    <string name="tap_switch_off">Tap to switch off</string>
+    <string name="tap_switch_on">Tap to switch on</string>
+    <string name="tap">Tap the tag</string>
+    <string name="error">Choose option then tap tag again.</string>
+    <string name="sendbutton">Send</string>
+    <string name="readbutton">Read</string>
+    <string name="writeTextView">Choose option</string>
+    <string name="readTextView">Ready to read</string>
+    <string name="add_aar">Add LPC8N04 Demo AAR</string>
+    <string name="enable_ndef_readLoop">Enable NDEF read loop</string>
+    <string name="send_text">SRAM Speed</string>
+    <string name="SRam_char_multipl">Enter char multiplier</string>
+    <string name="MemorySwitch">Memory:</string>
+    <string name="rf_send">Send</string>
+    <string name="scroll">Display NDEF message on LCD</string>
+    <string name="lcd">Enable LCD</string>
+    <string name="temperature">Enable Temperature Sensor</string>
+    <string name="Ndef_char_multipl">Enter text multiplier</string>
+    <string name="Block_multipl">Data length: </string>
+    <string name="Block_multipl_sram"> x 64 bytes</string>
+    <string name="Block_multipl_eeprom"> Bytes</string>
+    <string name="Block_multipl_eeprom_overhead"> (overhead) Bytes</string>
+    <string name="nxp">NXP</string>
+    <string name="send">send</string>
+    <string name="send_hint">Enter text here</string>
+    <string name="textCallbackMessage">Message:</string>
+    <string name="textCallbackResponse">Response:</string>
+    <string name="text_on">ON</string>
+    <string name="text_off">OFF</string>
+    <string name="ndef_mem_size">User memory:</string>
+    <string name="LAST_NDEF_Block">Last NDEF Block is:</string>
+    <string name="NDEF_DATA_READ">NDEF Data Read is:</string>
+    <string name="RF_Field">RF field present is:</string>
+    <string name="RFLock">RF locked is:</string>
+    <string name="SM_Reg">SRAM Mirror is:</string>
+    <string name="WD_LS_Timer">WD_LS Timer is:</string>
+    <string name="WD_MS_Timer">WD_MS Timer is:</string>
+    <string name="Plus_header">ACCESS CONFIGURATION</string>
+    <string name="Plus_Auth0">Auth0 is:</string>
+    <string name="Plus_NFC_Prot">NFC Prot is:</string>
+    <string name="Plus_NFC_DIS_SEC1">NFC DIS SEC1 is:</string>
+    <string name="title_activity_write_config">WriteConfig</string>
+    <string name="readConf">Tap tag to read board status</string>
+    <string name="initSpeedMsg">Tap tag to evaluate performance</string>
+    <string name="transferdirection">Transfer: non</string>
+    <string name="readConfDone">read configuration successfully done\n\r</string>
+    <string name="readNdefMsg">Tap tag to read NDEF content</string>
+    <string name="writeConf">Tap tag to write configuration.\n\r</string>
+    <string name="writeNdefMsg">Tap tag to write NDEF content</string>
+    <string name="Button1">1</string>
+    <string name="Button2">2</string>
+    <string name="Button3">3</string>
+    <string name="Tag_lost">Tag lost, try again</string>
+    <string name="format_error">Error: Input data format invalid</string>
+    <string name="General_Chip_Information">General Chip Information</string>
+    <string name="FD_header">FIELD DETECTION</string>
+    <string name="ver_header">VERSION INFORMATION</string>
+    <string name="ver_board">Board Version: </string>
+    <string name="ver_FW">Board FW Version: </string>
+    <string name="ver_App">App Version: </string>
+    <string name="config_read">Read tag memory </string>
+    <string name="config_reset">Reset tag</string>
+    <string name="config_session">Read Session Registers </string>
+    <string name="config_config">Read/Write Config Registers </string>
+    <string name="rf_memoryOptions_sram">SRAM  </string>
+    <string name="rf_memoryOptions_eeprom">EEPROM</string>
+    <string name="rf_readOptions_fast_mode">Fast Mode</string>
+    <string name="rf_readOptions_polling_mode">Polling Mode</string>
+    <string name="layout_output">Board configuration</string>
+    <string name="layout_input_led">Board status</string>
+    <string name="layout_input_speedtest">Performance</string>
+    <string name="layout_input_ndef_read">Read performance</string>
+    <string name="layout_input_ndef_write">Write performance</string>
+    <string name="statistics">Statistics</string>
+    <string name="layout_input_reset_tag">Reset performance</string>
+    <string name="layout_input_read_tag">Read performance</string>
+    <string name="read_memory">Tap tag to read content</string>
+    <string name="read_sregs">Tap tag to read session registers</string>
+    <string name="read_cregs">Tap tag to read configuration registers</string>
+    <string name="reset_memory">Tap tag to reset its content</string>
+    <string name="read_ver">Tap tag to get the Board Version Information</string>
+    <string name="read_debug">Tap tag to get debug Information</string>
+    <string name="debug_info_header">FUNCTIONS</string>
+    <string name="debug_transceive">Transceive (1 Byte): </string>
+    <string name="debug_transceive_2Byte">Transceive (2 Byte): </string>
+    <string name="ndef_type">NDEF Msg Type: </string>
+    <string name="radio_text">Text</string>
+    <string name="radio_uri">URI</string>
+    <string name="radio_btpair">BT</string>
+    <string name="radio_sp">SP</string>
+    <string name="radio_none">None</string>
+    <string name="ndef_default_uri">http://www.nxp.com/demoboard/OM5569</string>
+    <string name="PageTimeTemperature">Clock and Temperature</string>
+    <string name="FD_OFF">FD_OFF is:</string>
+    <string name="FD_ON">FD_ON is:</string>
+    <string name="Last_NDEF_Page_is">Last NDEF Page is:</string>
+    <string name="PT_header">PASS THROUGH</string>
+    <string name="Pass_Through">Pass Through is:</string>
+    <string name="PTHRU_ON_OFF">Functionality is:</string>
+    <string name="PTHRU_DIR">Direction:</string>
+    <string name="WRITE_ACCESS">Write from RF is:</string>
+    <string name="Write_Config">Write Config</string>
+    <string name="Read_Config">Read Config</string>
+    <string name="Write_NDEF">Write NDEF</string>
+    <string name="Read_NDEF">Read NDEF</string>
+    <string name="ResetType_RF">Memory Reset (RF)</string>
+    <string name="speed1">LOW</string>
+    <string name="speed2">MEDIUM</string>
+    <string name="speed3">HIGH</string>
+    <string name="select_tune">SELECT TUNE</string>
+    <string name="tune1">Jingle Bells</string>
+    <string name="tune2">Twinke Twinkle Little Star</string>
+    <string name="tune3">Fur Elise</string>
+</resources>

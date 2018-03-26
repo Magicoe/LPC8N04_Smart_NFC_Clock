@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+****************************************************************************
+* Copyright(c) 2017 NXP Semiconductors                                     *
+* All rights are reserved.                                                 *
+*                                                                          *
+* Software that is described herein is for illustrative purposes only.     *
+* This software is supplied "AS IS" without any warranties of any kind,    *
+* and NXP Semiconductors disclaims any and all warranties, express or      *
+* implied, including all implied warranties of merchantability,            *
+* fitness for a particular purpose and non-infringement of intellectual    *
+* property rights.  NXP Semiconductors assumes no responsibility           *
+* or liability for the use of the software, conveys no license or          *
+* rights under any patent, copyright, mask work right, or any other        *
+* intellectual property rights in or to any products. NXP Semiconductors   *
+* reserves the right to make changes in the software without notification. *
+* NXP Semiconductors also makes no representation or warranty that such    *
+* application will be suitable for the specified use without further       *
+* testing or modification.                                                 *
+*                                                                          *
+* Permission to use, copy, modify, and distribute this software and its    *
+* documentation is hereby granted, under NXP Semiconductors' relevant      *
+* copyrights in the software, without fee, provided that it is used in     *
+* conjunction with NXP Semiconductor products(LPC8N04)                     *
+* This  copyright, permission, and disclaimer notice must appear in all    *
+* copies of this code.                                                     *
+****************************************************************************
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/layoutView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|fill_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3dp"
+                android:background="@drawable/layout_background_section"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text_ClockSettings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time/Date Settings"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText_DateTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:editable="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:inputType="date|datetime" />
+            </LinearLayout>
+// ------------------------------------------------------------------- //
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:background="@drawable/layout_background_section"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/text_AlarmSettings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alarm Settings"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent" >
+
+                        <LinearLayout
+                            android:layout_width="170dp"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <TimePicker
+                                android:id="@+id/timePicker_Alarm"
+                                android:layout_width="wrap_content"
+                                android:layout_height="140dp" />
+
+                            <ToggleButton
+                                android:id="@+id/toggleButtonAlarm"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ToggleButton"
+                                android:textOff="Disable Alarm"
+                                android:textOn="Enable Alarm" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <EditText
+                                android:id="@+id/editTextTempStep"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="LED Step: 0.5℃"
+                                android:textSize="12sp" />
+
+                            <EditText
+                                android:id="@+id/editTextTempBase"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="LED Base: 20℃"
+                                android:textSize="12sp" />
+
+                            <SeekBar
+                                android:id="@+id/seekBarTempStep"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="3" />
+
+                            <SeekBar
+                                android:id="@+id/seekBarTempBase"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="9"
+                                android:progress="0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+// ------------------------------------------------------------------- //
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_margin="3dp"
+                android:layout_weight="2.32"
+                android:background="@drawable/layout_background_section"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature Data Log"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <LinearLayout
+                            android:id="@+id/LinearLayout01"
+                            android:layout_width="150dp"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:paddingLeft="30dp" >
+
+                                <TextView
+                                    android:id="@+id/thermo_c"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="left"
+                                    android:textColor="#e9bc57"
+                                    android:textSize="35sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:paddingLeft="2dp"
+                                    android:src="@drawable/thermo_c" />
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:src="@drawable/divider" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:id="@+id/thermo_f"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#dadada"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:paddingLeft="2dp"
+                                    android:src="@drawable/thermo_f" />
+                            </LinearLayout>
+
+                            <ToggleButton
+                                android:id="@+id/toggleButton_Read"
+                                android:layout_width="101dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="55dp"
+                                android:textOff="Config Sys"
+                                android:textOn="Read Temp"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="178dp"
+                            android:gravity="center"
+                            android:orientation="vertical"  >
+
+                            <EditText
+                                android:id="@+id/editText_TempRecord"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.83"
+                                android:inputType="textMultiLine"
+                                android:text="5s Temperature Value"
+                                android:textSize="12sp" />
+
+                            <SeekBar
+                                android:id="@+id/seekBar_TempSet"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="2"
+                                android:progress="1" />
+
+                            <ToggleButton
+                                android:id="@+id/toggleButtonTempUnit"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:checked="true"
+                                android:textOff="Fahrenheit(℉)"
+                                android:textOn="Celsius(℃)" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+// ------------------------------------------------------------------- //
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/editText_CmdString"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textSize="16sp" />
+            </LinearLayout>
+ // ------------------------------------------------------------------- //
+        </LinearLayout>
+    </GridLayout>
+</ScrollView>
