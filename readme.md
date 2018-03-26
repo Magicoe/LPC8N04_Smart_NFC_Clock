@@ -8,6 +8,7 @@ NXP 2018
 Followed NXP claim, it should be free use  
 
 ### Author
+Owner   :NXP MICR LPC
 Hardware:Longqiu co.,Ltd, Beijing  
 3D Print:Dexter Glang  
 Software:Magicoe Niu  
@@ -29,7 +30,8 @@ Huawei Mate10
 etc  
   
 Board Picture  
-![LPC8N04 Board](https://github.com/Magicoe/LPC8N04_eClock/blob/master/docs/pictures/lpc8n04_eclock.png)   
+![LPC8N04 Board TopView](https://github.com/Magicoe/LPC8N04_eClock/blob/master/docs/pictures/lpc8n04_eclock_top.png)   
+![LPC8N04 Board BotView](https://github.com/Magicoe/LPC8N04_eClock/blob/master/docs/pictures/lpc8n04_eclock_bottom.png)  
   
 3D print case  
 Special thanks to *Dexter Glang*, he designed this 3D print shield  
