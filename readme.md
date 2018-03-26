@@ -24,6 +24,8 @@ Nexus6
 Huawei Mate10  
 etc  
   
+<font color="#4590a3" size = "6px">ндвж</font>  
+  
 Board Picture  
 ![LPC8N04 Board]()  
   
