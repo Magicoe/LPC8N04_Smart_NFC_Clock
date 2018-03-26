@@ -15,7 +15,7 @@ MCUXpresso IDE v10.1.1_606
 ## Introduction
 Based on LPC8N04FHI33 with RTC calendar, temperature sensor, OLED panel, LEDs  
   
-Low power <font color=red>@8uA</font> total board  
+Low power <font color='red'>@8uA</font> total board  
 Support battery less mode  
 Support temperature log  
   
