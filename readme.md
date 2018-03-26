@@ -30,8 +30,9 @@ Huawei Mate10
 etc  
   
 Board Picture  
-|:Top View:||:Bottom View:|  
-|![LPC8N04 Board TopView](https://github.com/Magicoe/LPC8N04_eClock/blob/master/docs/pictures/lpc8n04_eclock_top.png)|![LPC8N04 Board BotView](https://github.com/Magicoe/LPC8N04_eClock/blob/master/docs/pictures/lpc8n04_eclock_bottom.png)|  
+|Top View||Bottom View|
+|:---||:---|
+|![LPC8N04 Board TopView](https://github.com/Magicoe/LPC8N04_eClock/blob/master/docs/pictures/lpc8n04_eclock_top.png)|![LPC8N04 Board BotView](https://github.com/Magicoe/LPC8N04_eClock/blob/master/docs/pictures/lpc8n04_eclock_bottom.png)|
 
   
 3D print case  
