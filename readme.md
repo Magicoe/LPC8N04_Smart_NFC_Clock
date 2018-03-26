@@ -1,11 +1,17 @@
 # README
 
 ## Detail Description
-### Author  magicoe.niU@nxp.com
+### Copy right by
+NXP 2018
+### License
+Free use
+### Author
+magicoe.niu@nxp.com
 
-### Hardware tool : Aluminum Design
-### Software tool : MCUXpresso IDE v10.1.1_606
-
+### Hardware tool
+Aluminum Design
+### Software tool
+MCUXpresso IDE v10.1.1_606
 
 ## Introduction
 Based on LPC8N04FHI33 with RTC calendar, temperature sensor, OLED panel, LEDs
