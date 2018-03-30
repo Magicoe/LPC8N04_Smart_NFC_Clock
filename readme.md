@@ -1,6 +1,6 @@
 # README
 
-![](https://github.com/Magicoe/sb/blob/gh-pages/lang/english.svg)
+![English Icon](https://github.com/Magicoe/sb/blob/gh-pages/lang/english.svg) ![Build Status Icon](https://github.com/Magicoe/sb/blob/gh-pages/build/passing.svg)
 
 ## Detail Description
 ### Copy right by
