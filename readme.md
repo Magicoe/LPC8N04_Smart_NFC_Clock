@@ -2,6 +2,10 @@
 
 ![English Icon](https://github.com/Magicoe/sb/blob/gh-pages/lang/english.svg) ![Build Status Icon](https://github.com/Magicoe/sb/blob/gh-pages/build/passing.svg)
 
+![GoogleStore](https://github.com/Magicoe/sb/blob/gh-pages/download/googleplay.svg)
+
+
+
 ## Detail Description
 ### Copy right by
 NXP 2018  
